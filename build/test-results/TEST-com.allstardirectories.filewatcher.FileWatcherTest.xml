@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="dcx-jl73wk1" name="com.allstardirectories.filewatcher.FileWatcherTest" tests="2" time="0.054" timestamp="2012-10-16T16:16:04">
+  <properties />
+  <testcase classname="com.allstardirectories.filewatcher.FileWatcherTest" name="testMonitor" time="0.0020" />
+  <testcase classname="com.allstardirectories.filewatcher.FileWatcherTest" name="testFormDestinationPath" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,43 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven'
+
+
+group = "com.allstardirectories"
+version = 1.0
+dependencies {
+    compile 'org.apache.commons:commons-vfs2:2.0'
+    compile 'org.apache.commons:commons-io:1.3.2'
+    testCompile 'org.mockito:mockito-all:1.8.0'
+    testCompile 'junit:junit:4.8.2'
+}
+
+repositories {
+
+//    mavenLocal();
+//    mavenCentral();
+    maven {
+//        credentials {
+//            username 'john.tran'
+//            password ''
+//        }
+        url "http://nexus.hq.allstardirectories.com/content/repositories/central/"
+    }
+
+}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+//            repository(url: uri("http://maven.hq.allstardirectories.com/maven/libs-releases-local")){
+//                authentication(userName:'john.tran', password: '')
+//            }
+            repository(url: uri("http://nexus.hq.allstardirectories.com/content/repositories/releases")){
+                    authentication(userName:'deployment', password: 'deployment')
+            }
+        }
+    }
+}
+
+

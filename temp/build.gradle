@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+//
+// Project dependencies
+//
+repositories {
+    mavenLocal();
+    maven {
+        credentials {
+            username 'john.tran'
+            password ''
+        }
+        url "http://maven.hq.allstardirectories.com/maven/libs-releases-local"
+    }
+    mavenCentral();
+}
+
+
+dependencies {
+    compile 'org.apache.commons:commons-vfs2:2.0'
+    compile 'org.apache.commons:commons-io:1.3.2'
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="maven-scm-provider-svn-commons-1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-14/filestore/org.apache.maven.scm/maven-scm-provider-svn-commons/1.4/jar/54bc1dc24c5d205b4d251a83f4ea63808c21a628/maven-scm-provider-svn-commons-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-14/filestore/org.apache.maven.scm/maven-scm-provider-svn-commons/1.4/source/bc76e700d77e94f55bbb2fa90c5ba8718d6652dc/maven-scm-provider-svn-commons-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
